@@ -12,8 +12,8 @@ import requests
 import difflib
 import pandas as pd
 
-# api_key = "AIzaSyB7v3lYHYKAJsev6KOThSSH5mWZgn94TOo"
-api_key = "AIzaSyB6Zl-BKjsqAXsKYfd_NiyjC1Ytw9S9HTw"
+# api_key = ""
+api_key = ""
 
 def getData(url):
     response = requests.get(url)
